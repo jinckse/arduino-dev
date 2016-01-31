@@ -3,7 +3,7 @@
 // Sensor value description
 // 0   ~ 300 dry soil
 // 300 ~ 700 humid soil
-// 700 ~ 950 saturated
+// 700 ~ 1023 saturated
 
 void setup() {
   // Start serial connection
@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  // Diplay bare results from analog pin 0 (range from 0 to 1023)
+  // Diplay results from analog pin 0 (range from 0 to 1023)
   Serial.print("Moisture Sensor Value: ");
   Serial.println(analogRead(A0));
 
