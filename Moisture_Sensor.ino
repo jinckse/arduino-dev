@@ -3,7 +3,7 @@
 // Sensor value description
 // 0   ~ 300 dry soil
 // 300 ~ 700 humid soil
-// 700 ~ 1023 saturated
+// > 700     saturated
 
 void setup() {
   // Start serial connection
